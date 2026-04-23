@@ -1,0 +1,23 @@
+# DNS Traffic
+dns
+
+# TCP Traffic
+tcp
+
+# ICMP Traffic
+icmp
+
+# HTTP Traffic
+http
+
+# HTTPS / TLS Traffic
+tls
+
+# Failed DNS or suspicious
+dns && !(dns.response)
+
+# TCP SYN (connection attempts)
+tcp.flags.syn == 1 && tcp.flags.ack == 0
+
+# ICMP echo (ping)
+icmp.type == 8
