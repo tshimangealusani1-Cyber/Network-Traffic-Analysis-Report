@@ -24,6 +24,10 @@ This project simulates real-world network monitoring and SOC analysis.
 
 ---
 
+## screenshots link 
+
+https://www.notion.so/Wireshark-3442f9b6c931805db96fd6b6ab78c513?source=copy_link
+
 ## 🔍 Protocols Analyzed
 
 ### 🌐 DNS
